@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.mylink{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+}
+.mylink a{
+  color: navy;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px 1rem;
+  border-radius: 12px;
+}
+.mylink a:hover{
+  color: white;
+  background-color: navy;
+}
+@media (max-width: 768px) {
+  .container{
+    gap: 2rem;
+
+  }
+}
